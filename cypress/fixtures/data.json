@@ -1,0 +1,65 @@
+{
+  "registerUser": {
+    "name": "Yuri Enomoto",
+    "email": "yurieno@orbit.com",
+    "title": "Mr",
+    "pass": "senha12345",
+    "birthday": {
+        "day": "26",
+        "month": "10",
+        "year": "2003"
+    },
+    "newsletter": "yes",
+    "optin": "no",
+    "company": "Orbit",
+    "address1": "Dr jose lino",
+    "address2": "Brasil",
+    "state": "Chines",
+    "country": "Singapore",
+    "city": "Singapore City",
+    "zipcode": "12345678",
+    "number": "987654321"
+  },
+  "duplicatedUser": {
+    "name": "Cristiano Ronaldo",
+    "email": "cr7Orbit@mail.com",
+    "pass": "senhamuitoforte",
+    "title": "Mr",
+    "birthday": {
+        "day": "01",
+        "month": "01",
+        "year": "2000"
+    },
+    "firstname": "Cristiano",
+    "lastname": "Ronaldo",
+    "company": "Real Madrid",
+    "address1": "Espanha",
+    "address2": "Madrid",
+    "country": "Canada",
+    "zipcode": "12345678",
+    "state": "Cana",
+    "city": "Montreal",
+    "number": "987654321"
+  },
+  "loginUser": {
+    "name": "Lionel Messi",
+    "email": "messiOrbit@mail.com",
+    "pass": "senhamuitoforte",
+    "title": "Mr",
+    "birthday": {
+        "day": "01",
+        "month": "01",
+        "year": "2000"
+    },
+    "firstname": "Lionel",
+    "lastname": "Messi",
+    "company": "FC Barcelona",
+    "address1": "Espanha",
+    "address2": "Barcelona",
+    "country": "Canada",
+    "zipcode": "12345678",
+    "state": "Cana",
+    "city": "Montreal",
+    "number": "987654321"
+  }
+}

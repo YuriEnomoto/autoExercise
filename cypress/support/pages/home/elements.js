@@ -1,3 +1,3 @@
 exports.el = {
-    featuresItens: 'div[class="features_items"]'
+    feauresItens: 'div[class="features_items"]'
 }
