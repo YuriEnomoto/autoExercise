@@ -1,5 +1,3 @@
-import HomePage from "../support/pages/home"
-import Header from "../support/components/header"
 import SignupPage from "../support/pages/signup"
 
 describe('Dado que estou na página de cadastro', function(){
@@ -18,8 +16,7 @@ describe('Dado que estou na página de cadastro', function(){
 
             cy.apiDelete(data)
 
-            HomePage.go()
-            Header.goToSignup()
+            cy.visit('/login')
 
             SignupPage.fillSignupForm(data)
             SignupPage.submitSignupForm()
@@ -42,8 +39,7 @@ describe('Dado que estou na página de cadastro', function(){
             cy.apiDelete(data)
             cy.apiSignup(data)
 
-            HomePage.go()
-            Header.goToSignup()
+            cy.visit('/login')
 
             SignupPage.fillSignupForm(data)
             SignupPage.submitSignupForm()
