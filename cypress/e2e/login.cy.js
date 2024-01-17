@@ -75,11 +75,11 @@ describe('Dado que estou na página de login', function() {
     })
 
     const emailMessages = [
-        {email: 'emailRuim', output: 'Inclua um "@" no endereço de email.'},
-        {email: '1231431245', output: 'Inclua um "@" no endereço de email.'},
-        {email: '´[´[]~]~´]', output: 'Inclua um "@" no endereço de email.'},
-        {email: '{enter}', output: "Preencha este campo."},
-        {email: 'EMAIL GIGANTE', output: 'Inclua um "@" no endereço de email.'},
+        {email: 'emailRuim', output: "Please include an '@' in the email address."},
+        {email: '1231431245', output: "Please include an '@' in the email address."},
+        {email: '´[´[]~]~´]', output: "Please include an '@' in the email address."},
+        {email: '{enter}', output: "Please fill out this field"},
+        {email: 'EMAIL GIGANTE', output: "Please include an '@' in the email address."},
     ]
 
     emailMessages.forEach(function(msg){
